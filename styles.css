@@ -21,7 +21,7 @@
         margin-top: -12vh; }
     .enter-box {
         position: absolute; top: 13vh; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);
-        background-color: none;
+        background-color: none; padding: 4vw; 
         width: 10vw; height: 15vh; }
     .dot {
         color: orange;
@@ -62,4 +62,10 @@
 .twitter {
     width: 7vh; height: 7vh; background-size: contain;
     background-image: url(twitter.png);
+}
+
+.light {
+    width: 12vw; height: 9vh;
+    background-color: #648aaa99;
+    position: absolute; top: 13%; left: 50%; margin-right: -50%; transform: translate(-50%, -50%);
 }
